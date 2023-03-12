@@ -1,3 +1,7 @@
+package model;
+
+import enums.StudyProfile;
+
 public class University {
 	String id;
 	String fullName;
@@ -5,12 +9,8 @@ public class University {
 	int yearOfFoundation;
 	StudyProfile mainProfile;
 
-	public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
-		this.id = id;
-		this.fullName = fullName;
-		this.shortName = shortName;
-		this.yearOfFoundation = yearOfFoundation;
-		this.mainProfile = mainProfile;
+	public University(){
+
 	}
 
 	public String getId() {
